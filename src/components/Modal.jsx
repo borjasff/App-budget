@@ -94,7 +94,7 @@ const Modal = ({setModal, animationModal, setAnimationModal, saveSpending, spend
                     <option value="Subscription">Suscripciones</option>
                 </select>
             </div>
-            <input type="submit" value={spendEdit.name ? 'Guardar Cambios' : 'Añadir Gasto'}/>
+            <input className="campo" type="submit" value={spendEdit.name ? 'Guardar Cambios' : 'Añadir Gasto'}/>
         </form>
     </div>
   )
